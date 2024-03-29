@@ -5,3 +5,23 @@
 console.log(6*4);
 
 console.log("Hitesh");
+
+let name = "Hitesh";
+let age = 21;
+let isLoggedIn = true;
+let state;
+
+
+//number=>2^53
+//bigint
+//string=>'' or ""
+//boolean=>true or false
+//null=>standalone value
+//undefined=>
+//symbol=>unique value
+
+
+//object=>key value pair
+
+
+console.log(typeof "Hitesh");
