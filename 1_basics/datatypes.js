@@ -24,4 +24,4 @@ let state;
 //object=>key value pair
 
 
-console.log(typeof "Hitesh");
+console.log(typeof "Hitesh ");
