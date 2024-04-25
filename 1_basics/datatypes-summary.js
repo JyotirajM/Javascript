@@ -31,3 +31,28 @@ const myFunction=function(){
     console.log("Hello World!");
 }
 console.log(typeof id);
+
+// function returns as function but it is called as fuction object
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack (primitive) and heap(Non-Primitive)
+
+let myProjectname="My Project";
+let myProjectname2=myProjectname
+
+myProjectname2="My Project 2";
+
+console.log(myProjectname);
+console.log(myProjectname2);
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@upi",
+}
+let userTwo=userOne;
+
+userTwo.email="Hitesh@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
